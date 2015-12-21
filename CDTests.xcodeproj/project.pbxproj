@@ -12,6 +12,10 @@
 		381968141C28960C00B7C6AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 381968121C28960C00B7C6AC /* Main.storyboard */; };
 		381968161C28960C00B7C6AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 381968151C28960C00B7C6AC /* Assets.xcassets */; };
 		381968191C28960C00B7C6AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 381968171C28960C00B7C6AC /* LaunchScreen.storyboard */; };
+		381968211C28993D00B7C6AC /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 381968201C28993D00B7C6AC /* DataController.swift */; };
+		381968241C28997D00B7C6AC /* TestDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 381968221C28997D00B7C6AC /* TestDataModel.xcdatamodeld */; };
+		381968271C289B4400B7C6AC /* Person+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 381968251C289B4400B7C6AC /* Person+CoreDataProperties.swift */; };
+		381968281C289B4400B7C6AC /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 381968261C289B4400B7C6AC /* Person.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		381968151C28960C00B7C6AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		381968181C28960C00B7C6AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3819681A1C28960C00B7C6AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		381968201C28993D00B7C6AC /* DataController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
+		381968231C28997D00B7C6AC /* TestDataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TestDataModel.xcdatamodel; sourceTree = "<group>"; };
+		381968251C289B4400B7C6AC /* Person+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Person+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		381968261C289B4400B7C6AC /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +65,10 @@
 				3819680E1C28960C00B7C6AC /* AppDelegate.swift */,
 				381968101C28960C00B7C6AC /* ViewController.swift */,
 				381968121C28960C00B7C6AC /* Main.storyboard */,
+				381968201C28993D00B7C6AC /* DataController.swift */,
+				381968251C289B4400B7C6AC /* Person+CoreDataProperties.swift */,
+				381968261C289B4400B7C6AC /* Person.swift */,
+				381968221C28997D00B7C6AC /* TestDataModel.xcdatamodeld */,
 				381968151C28960C00B7C6AC /* Assets.xcassets */,
 				381968171C28960C00B7C6AC /* LaunchScreen.storyboard */,
 				3819681A1C28960C00B7C6AC /* Info.plist */,
@@ -135,7 +147,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				381968281C289B4400B7C6AC /* Person.swift in Sources */,
 				381968111C28960C00B7C6AC /* ViewController.swift in Sources */,
+				381968271C289B4400B7C6AC /* Person+CoreDataProperties.swift in Sources */,
+				381968241C28997D00B7C6AC /* TestDataModel.xcdatamodeld in Sources */,
+				381968211C28993D00B7C6AC /* DataController.swift in Sources */,
 				3819680F1C28960C00B7C6AC /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -286,6 +302,19 @@
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		381968221C28997D00B7C6AC /* TestDataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				381968231C28997D00B7C6AC /* TestDataModel.xcdatamodel */,
+			);
+			currentVersion = 381968231C28997D00B7C6AC /* TestDataModel.xcdatamodel */;
+			path = TestDataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 381968031C28960C00B7C6AC /* Project object */;
 }
